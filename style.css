@@ -35,10 +35,10 @@ body {
   font-size: 1rem;
 }
 
-/* Language visibility */
-.en, .vi { display: none; }
-body:not(.lang-vi) .en { display: inline; }
-body.lang-vi .vi { display: inline; }
+/* Language visibility — default: show EN, hide VI */
+.vi { display: none; }
+.lang-vi .vi { display: inline; }
+.lang-vi .en { display: none; }
 
 /* Header */
 header {
