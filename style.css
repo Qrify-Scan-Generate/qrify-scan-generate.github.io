@@ -39,15 +39,6 @@ body {
 .en, .vi { display: none; }
 body:not(.lang-vi) .en { display: inline; }
 body.lang-vi .vi { display: inline; }
-/* Block-level elements that need to switch */
-p .en, p .vi,
-li .en, li .vi { display: inline; }
-h1 .en, h1 .vi,
-h2 .en, h2 .vi { display: block; }
-body:not(.lang-vi) h1 .vi,
-body:not(.lang-vi) h2 .vi { display: none; }
-body.lang-vi h1 .en,
-body.lang-vi h2 .en { display: none; }
 
 /* Header */
 header {
