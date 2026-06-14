@@ -1,8 +1,27 @@
-# QRify Privacy Policy
+# QRify Website
 
-Static privacy policy page for **QRify - Scan & Generate**, hosted on GitHub Pages.
+Static site for **QRify - Scan & Generate**, hosted on GitHub Pages.
 
-Live URL: https://tqrify-scan-generate.github.io/privacy
+- Landing page: https://qrify-scan-generate.github.io/
+- Privacy Policy: https://qrify-scan-generate.github.io/privacy/
+
+---
+
+## Structure
+
+```
+/
+├── index.html        # Landing page (EN/VI)
+├── privacy/
+│   └── index.html    # Privacy Policy (EN/VI), applies to all app versions
+└── assets/
+    └── style.css      # Shared styles
+```
+
+> **Note:** When updating App Store / Google Play privacy URL, use
+> `https://qrify-scan-generate.github.io/privacy/` — this URL stays the same
+> across app versions. Track policy changes in the "Version History" section
+> on the privacy page instead of creating new URLs per version.
 
 ---
 
@@ -20,5 +39,5 @@ Live URL: https://tqrify-scan-generate.github.io/privacy
 ## Custom Domain (optional, later)
 
 1. Fill in your domain in the `CNAME` file (e.g. `yangwave.com`)
-2. Add a CNAME DNS record pointing to `tqrify-scan-generate.github.io`
+2. Add a CNAME DNS record pointing to `qrify-scan-generate.github.io`
 3. In GitHub Pages settings → enter the custom domain → enable **Enforce HTTPS**
