@@ -39,5 +39,7 @@ App đã tích hợp Google AdMob để hiển thị quảng cáo (`app-ads.txt`
 - [x] (6) Sửa Children's Privacy
 - [x] (7) Thêm entry Version History
 - [x] (8) Sửa tagline landing page
+- [x] (9) Thêm link Google "EU User Consent Policy" (support.google.com/admob/answer/6128543) vào section Advertising — đối chiếu với privacy policy đã được duyệt của 1 app AdMob khác
+- [x] (10) Thêm đoạn hướng dẫn Opt-Out quảng cáo cá nhân hóa cho iOS/Android vào section Advertising
 - [ ] Kiểm tra toggle EN/VI hiển thị đúng toàn bộ nội dung mới
 - [ ] Commit & push, kiểm tra trên GitHub Pages
